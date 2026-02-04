@@ -43,3 +43,19 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Error logs
+errors.txt
+errors_v2.txt
+errors_v3.txt
+
+# Firebase sensitive files (keep firebase.json but ignore sensitive configs)
+# Uncomment if you don't want to share Firebase config
+# google-services.json
+# GoogleService-Info.plist
+# firebase_options.dart
+
+# Screenshots (if you want to keep them separate)
+# *.png
+# *.jpg
+# *.jpeg
