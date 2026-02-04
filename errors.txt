@@ -1,0 +1,171 @@
+Resolving dependencies...
+Downloading packages...
+  characters 1.4.0 (1.4.1 available)
+  matcher 0.12.17 (0.12.18 available)
+  material_color_utilities 0.11.1 (0.13.0 available)
+  meta 1.17.0 (1.18.1 available)
+  test_api 0.7.7 (0.7.9 available)
+  vector_graphics_compiler 1.1.19 (1.1.20 available)
+Got dependencies!
+6 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Analyzing evently...                                            
+
+   info - The file name 'AppConstants.dart' isn't a lower_case_with_underscores identifier - lib\core\resources\AppConstants.dart:1:1 - file_names
+   info - Unnecessary 'this.' qualifier - lib\core\resources\AppConstants.dart:8:12 - unnecessary_this
+   info - The file name 'AppTheme.dart' isn't a lower_case_with_underscores identifier - lib\core\resources\AppTheme.dart:1:1 - file_names
+   info - The imported package 'evently' isn't a dependency of the importing package - lib\core\resources\AppTheme.dart:1:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:evently/core/resources/ColorsManager.dart' - lib\core\resources\AppTheme.dart:1:8 - uri_does_not_exist
+  error - Undefined name 'ColorsManager' - lib\core\resources\AppTheme.dart:7:24 - undefined_identifier
+  error - Undefined name 'ColorsManager' - lib\core\resources\AppTheme.dart:18:22 - undefined_identifier
+  error - Undefined name 'ColorsManager' - lib\core\resources\AppTheme.dart:24:22 - undefined_identifier
+  error - Undefined name 'ColorsManager' - lib\core\resources\AppTheme.dart:32:30 - undefined_identifier
+  error - Undefined name 'ColorsManager' - lib\core\resources\AppTheme.dart:34:16 - undefined_identifier
+  error - Undefined name 'ColorsManager' - lib\core\resources\AppTheme.dart:35:18 - undefined_identifier
+  error - Undefined name 'ColorsManager' - lib\core\resources\AppTheme.dart:36:17 - undefined_identifier
+  error - Undefined name 'ColorsManager' - lib\core\resources\AppTheme.dart:37:18 - undefined_identifier
+  error - Undefined name 'ColorsManager' - lib\core\resources\AppTheme.dart:38:27 - undefined_identifier
+  error - Undefined name 'ColorsManager' - lib\core\resources\AppTheme.dart:40:28 - undefined_identifier
+  error - Undefined name 'ColorsManager' - lib\core\resources\AppTheme.dart:46:16 - undefined_identifier
+  error - Undefined name 'ColorsManager' - lib\core\resources\AppTheme.dart:51:16 - undefined_identifier
+  error - Undefined name 'ColorsManager' - lib\core\resources\AppTheme.dart:56:20 - undefined_identifier
+  error - Undefined name 'ColorsManager' - lib\core\resources\AppTheme.dart:66:20 - undefined_identifier
+  error - Undefined name 'ColorsManager' - lib\core\resources\AppTheme.dart:68:30 - undefined_identifier
+  error - Undefined name 'ColorsManager' - lib\core\resources\AppTheme.dart:71:16 - undefined_identifier
+  error - Undefined name 'ColorsManager' - lib\core\resources\AppTheme.dart:79:28 - undefined_identifier
+  error - Undefined name 'ColorsManager' - lib\core\resources\AppTheme.dart:83:24 - undefined_identifier
+  error - Undefined name 'ColorsManager' - lib\core\resources\AppTheme.dart:90:24 - undefined_identifier
+  error - Undefined name 'ColorsManager' - lib\core\resources\AppTheme.dart:96:22 - undefined_identifier
+  error - Undefined name 'ColorsManager' - lib\core\resources\AppTheme.dart:105:30 - undefined_identifier
+  error - Undefined name 'ColorsManager' - lib\core\resources\AppTheme.dart:107:18 - undefined_identifier
+  error - Undefined name 'ColorsManager' - lib\core\resources\AppTheme.dart:108:20 - undefined_identifier
+  error - Undefined name 'ColorsManager' - lib\core\resources\AppTheme.dart:109:19 - undefined_identifier
+  error - Undefined name 'ColorsManager' - lib\core\resources\AppTheme.dart:110:20 - undefined_identifier
+  error - Undefined name 'ColorsManager' - lib\core\resources\AppTheme.dart:112:31 - undefined_identifier
+  error - Undefined name 'ColorsManager' - lib\core\resources\AppTheme.dart:113:30 - undefined_identifier
+  error - Undefined name 'ColorsManager' - lib\core\resources\AppTheme.dart:121:22 - undefined_identifier
+  error - Undefined name 'ColorsManager' - lib\core\resources\AppTheme.dart:126:22 - undefined_identifier
+  error - Undefined name 'ColorsManager' - lib\core\resources\AppTheme.dart:141:20 - undefined_identifier
+  error - Undefined name 'ColorsManager' - lib\core\resources\AppTheme.dart:143:30 - undefined_identifier
+  error - Undefined name 'ColorsManager' - lib\core\resources\AppTheme.dart:146:22 - undefined_identifier
+   info - The file name 'AssetsManager.dart' isn't a lower_case_with_underscores identifier - lib\core\resources\AssetsManager.dart:1:1 - file_names
+   info - The constant name 'birthday_light' isn't a lowerCamelCase identifier - lib\core\resources\AssetsManager.dart:6:23 - constant_identifier_names
+   info - The constant name 'book_light' isn't a lowerCamelCase identifier - lib\core\resources\AssetsManager.dart:7:23 - constant_identifier_names
+   info - The constant name 'exhibition_light' isn't a lowerCamelCase identifier - lib\core\resources\AssetsManager.dart:8:23 - constant_identifier_names
+   info - The constant name 'meeting_light' isn't a lowerCamelCase identifier - lib\core\resources\AssetsManager.dart:9:23 - constant_identifier_names
+   info - The constant name 'sport_light' isn't a lowerCamelCase identifier - lib\core\resources\AssetsManager.dart:10:23 - constant_identifier_names
+   info - The constant name 'birthday_dark' isn't a lowerCamelCase identifier - lib\core\resources\AssetsManager.dart:11:23 - constant_identifier_names
+   info - The constant name 'book_dark' isn't a lowerCamelCase identifier - lib\core\resources\AssetsManager.dart:12:23 - constant_identifier_names
+   info - The constant name 'exhibition_dark' isn't a lowerCamelCase identifier - lib\core\resources\AssetsManager.dart:13:23 - constant_identifier_names
+   info - The constant name 'meeting_dark' isn't a lowerCamelCase identifier - lib\core\resources\AssetsManager.dart:14:23 - constant_identifier_names
+   info - The constant name 'sport_dark' isn't a lowerCamelCase identifier - lib\core\resources\AssetsManager.dart:15:23 - constant_identifier_names
+   info - The constant name 'home_selected' isn't a lowerCamelCase identifier - lib\core\resources\AssetsManager.dart:21:23 - constant_identifier_names
+   info - The constant name 'profile_selected' isn't a lowerCamelCase identifier - lib\core\resources\AssetsManager.dart:36:23 - constant_identifier_names
+   info - The constant name 'heart_selected' isn't a lowerCamelCase identifier - lib\core\resources\AssetsManager.dart:39:23 - constant_identifier_names
+   info - The file name 'ColorsManager.dart' isn't a lower_case_with_underscores identifier - lib\core\resources\ColorsManager.dart:1:1 - file_names
+   info - The file name 'StringsManager.dart' isn't a lower_case_with_underscores identifier - lib\core\resources\StringsManager.dart:1:1 - file_names
+   info - The file name 'Validations.dart' isn't a lower_case_with_underscores identifier - lib\core\resources\Validations.dart:1:1 - file_names
+   info - The file name 'Validators.dart' isn't a lower_case_with_underscores identifier - lib\core\resources\Validators.dart:1:1 - file_names
+   info - The imported package 'evently' isn't a dependency of the importing package - lib\core\resources\Validators.dart:1:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:evently/core/resources/StringsManager.dart' - lib\core\resources\Validators.dart:1:8 - uri_does_not_exist
+  error - Undefined name 'AppConstants' - lib\core\resources\Validators.dart:8:17 - undefined_identifier
+  error - Undefined name 'AppConst' - lib\core\resources\Validators.dart:21:17 - undefined_identifier
+   info - Dangling library doc comment - lib\core\resources\my_flutter_app_icons.dart:1:1 - dangling_library_doc_comments
+   info - The constant name 'birthday_icon' isn't a lowerCamelCase identifier - lib\core\resources\my_flutter_app_icons.dart:24:25 - constant_identifier_names
+   info - The file name 'customButton.dart' isn't a lower_case_with_underscores identifier - lib\core\resources\widgets\customButton.dart:1:1 - file_names
+   info - The imported package 'evently' isn't a dependency of the importing package - lib\core\resources\widgets\customButton.dart:1:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:evently/core/resources/ColorsManager.dart' - lib\core\resources\widgets\customButton.dart:1:8 - uri_does_not_exist
+  error - Undefined name 'ColorsManager' - lib\core\resources\widgets\customButton.dart:21:18 - undefined_identifier
+   info - The file name 'customTextButton.dart' isn't a lower_case_with_underscores identifier - lib\core\resources\widgets\customTextButton.dart:1:1 - file_names
+   info - The file name 'CustomButton.dart' isn't a lower_case_with_underscores identifier - lib\core\reusable\CustomButton.dart:1:1 - file_names
+warning - This class (or a class that this class inherits from) is marked as '@immutable', but one or more of its instance fields aren't final: CustomButton.title, CustomButton.onClick - lib\core\reusable\CustomButton.dart:3:7 - must_be_immutable
+   info - Constructors for public widgets should have a named 'key' parameter - lib\core\reusable\CustomButton.dart:6:3 - use_key_in_widget_constructors
+   info - The file name 'CustomField.dart' isn't a lower_case_with_underscores identifier - lib\core\reusable\CustomField.dart:1:1 - file_names
+warning - This class (or a class that this class inherits from) is marked as '@immutable', but one or more of its instance fields aren't final: CustomField.hint, CustomField.prefix, CustomField.isPassword, CustomField.validator, CustomField.controller, CustomField.suffix, CustomField.maxLines - lib\core\reusable\CustomField.dart:6:7 - must_be_immutable
+   info - Constructors for public widgets should have a named 'key' parameter - lib\core\reusable\CustomField.dart:14:3 - use_key_in_widget_constructors
+warning - Duplicate import - lib\main.dart:4:8 - duplicate_import
+warning - Unused import: 'package:evently_c17/core/resources/ColorsManager.dart' - lib\ui\add_event\screen\add_event_screen.dart:2:8 - unused_import
+   info - The prefix 'MyBackButton' isn't a lower_case_with_underscores identifier - lib\ui\add_event\screen\add_event_screen.dart:7:64 - library_prefixes
+   info - Use a 'SizedBox' to add whitespace to a layout - lib\ui\add_event\screen\add_event_screen.dart:55:19 - sized_box_for_whitespace
+warning - This function has a nullable return type of 'String?', but ends without returning a value - lib\ui\add_event\screen\add_event_screen.dart:158:42 - body_might_complete_normally_nullable
+warning - This function has a nullable return type of 'String?', but ends without returning a value - lib\ui\add_event\screen\add_event_screen.dart:172:40 - body_might_complete_normally_nullable
+warning - This class (or a class that this class inherits from) is marked as '@immutable', but one or more of its instance fields aren't final: TabViewImage.image - lib\ui\add_event\widgets\tab_view_image.dart:5:7 - must_be_immutable
+   info - Constructors for public widgets should have a named 'key' parameter - lib\ui\add_event\widgets\tab_view_image.dart:7:3 - use_key_in_widget_constructors
+warning - Unused import: 'package:flutter_svg/flutter_svg.dart' - lib\ui\forget_pass\screen\forgetpas_screen.dart:5:8 - unused_import
+   info - Use a 'SizedBox' to add whitespace to a layout - lib\ui\forget_pass\screen\forgetpas_screen.dart:23:13 - sized_box_for_whitespace
+   info - Unnecessary empty statement - lib\ui\home\tabs\home_tab\widgets\birthday_tab.dart:14:7 - empty_statements
+warning - Dead code - lib\ui\home\tabs\home_tab\widgets\birthday_tab.dart:14:7 - dead_code
+   info - Unnecessary empty statement - lib\ui\home\tabs\home_tab\widgets\book_tab.dart:14:7 - empty_statements
+warning - Dead code - lib\ui\home\tabs\home_tab\widgets\book_tab.dart:14:7 - dead_code
+   info - Unnecessary empty statement - lib\ui\home\tabs\home_tab\widgets\exhibition_tab.dart:14:7 - empty_statements
+warning - Dead code - lib\ui\home\tabs\home_tab\widgets\exhibition_tab.dart:14:7 - dead_code
+   info - Unnecessary empty statement - lib\ui\home\tabs\home_tab\widgets\meeting_tab.dart:14:7 - empty_statements
+warning - Dead code - lib\ui\home\tabs\home_tab\widgets\meeting_tab.dart:14:7 - dead_code
+   info - Unnecessary empty statement - lib\ui\home\tabs\home_tab\widgets\sport_tab.dart:14:7 - empty_statements
+warning - Dead code - lib\ui\home\tabs\home_tab\widgets\sport_tab.dart:14:7 - dead_code
+warning - Unused import: 'dart:io' - lib\ui\home\tabs\profile_tab\profile_tab.dart:1:8 - unused_import
+warning - Unused import: 'package:evently_c17/core/resources/ColorsManager.dart' - lib\ui\home\tabs\profile_tab\profile_tab.dart:4:8 - unused_import
+warning - This class (or a class that this class inherits from) is marked as '@immutable', but one or more of its instance fields aren't final: SettingsItem.title, SettingsItem.action, SettingsItem.onTap - lib\ui\home\tabs\profile_tab\widgets\settings_item.dart:5:7 - must_be_immutable
+   info - Constructors for public widgets should have a named 'key' parameter - lib\ui\home\tabs\profile_tab\widgets\settings_item.dart:9:3 - use_key_in_widget_constructors
+   info - The file name 'onBoarding.dart' isn't a lower_case_with_underscores identifier - lib\ui\onBoarding\screen\onBoarding.dart:1:1 - file_names
+   info - The imported package 'evently' isn't a dependency of the importing package - lib\ui\onBoarding\screen\onBoarding.dart:1:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:evently/core/resources/AssetsManager.dart' - lib\ui\onBoarding\screen\onBoarding.dart:1:8 - uri_does_not_exist
+   info - The imported package 'evently' isn't a dependency of the importing package - lib\ui\onBoarding\screen\onBoarding.dart:2:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:evently/core/resources/ColorsManager.dart' - lib\ui\onBoarding\screen\onBoarding.dart:2:8 - uri_does_not_exist
+   info - The imported package 'evently' isn't a dependency of the importing package - lib\ui\onBoarding\screen\onBoarding.dart:3:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:evently/core/resources/StringsManager.dart' - lib\ui\onBoarding\screen\onBoarding.dart:3:8 - uri_does_not_exist
+   info - The imported package 'evently' isn't a dependency of the importing package - lib\ui\onBoarding\screen\onBoarding.dart:4:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:evently/core/resources/widgets/customButton.dart' - lib\ui\onBoarding\screen\onBoarding.dart:4:8 - uri_does_not_exist
+   info - The imported package 'evently' isn't a dependency of the importing package - lib\ui\onBoarding\screen\onBoarding.dart:5:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:evently/ui/onBoarding/widgets/pageSvgScreen.dart' - lib\ui\onBoarding\screen\onBoarding.dart:5:8 - uri_does_not_exist
+   info - The imported package 'evently' isn't a dependency of the importing package - lib\ui\onBoarding\screen\onBoarding.dart:6:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:evently/ui/onBoarding/widgets/pageTextScreen.dart' - lib\ui\onBoarding\screen\onBoarding.dart:6:8 - uri_does_not_exist
+   info - The imported package 'evently' isn't a dependency of the importing package - lib\ui\onBoarding\screen\onBoarding.dart:7:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:evently/features/personalize/screen/personalize.dart' - lib\ui\onBoarding\screen\onBoarding.dart:7:8 - uri_does_not_exist
+  error - Undefined name 'Assetsmanager' - lib\ui\onBoarding\screen\onBoarding.dart:87:15 - undefined_identifier
+  error - Undefined name 'Assetsmanager' - lib\ui\onBoarding\screen\onBoarding.dart:95:11 - undefined_identifier
+  error - The method 'Personalize' isn't defined for the type '_OnBoardingScreenState' - lib\ui\onBoarding\screen\onBoarding.dart:107:59 - undefined_method
+  error - Undefined name 'StringsManager' - lib\ui\onBoarding\screen\onBoarding.dart:123:19 - undefined_identifier
+  error - The method 'PageSvgScreen' isn't defined for the type '_OnBoardingScreenState' - lib\ui\onBoarding\screen\onBoarding.dart:144:19 - undefined_method
+  error - Undefined name 'Assetsmanager' - lib\ui\onBoarding\screen\onBoarding.dart:144:38 - undefined_identifier
+  error - The method 'PageSvgScreen' isn't defined for the type '_OnBoardingScreenState' - lib\ui\onBoarding\screen\onBoarding.dart:145:19 - undefined_method
+  error - Undefined name 'Assetsmanager' - lib\ui\onBoarding\screen\onBoarding.dart:145:38 - undefined_identifier
+  error - The method 'PageSvgScreen' isn't defined for the type '_OnBoardingScreenState' - lib\ui\onBoarding\screen\onBoarding.dart:146:19 - undefined_method
+  error - Undefined name 'Assetsmanager' - lib\ui\onBoarding\screen\onBoarding.dart:146:38 - undefined_identifier
+  error - The method 'PageTextScreen' isn't defined for the type '_OnBoardingScreenState' - lib\ui\onBoarding\screen\onBoarding.dart:167:19 - undefined_method
+  error - Undefined name 'StringsManager' - lib\ui\onBoarding\screen\onBoarding.dart:168:28 - undefined_identifier
+  error - Undefined name 'StringsManager' - lib\ui\onBoarding\screen\onBoarding.dart:169:27 - undefined_identifier
+  error - The method 'PageTextScreen' isn't defined for the type '_OnBoardingScreenState' - lib\ui\onBoarding\screen\onBoarding.dart:171:19 - undefined_method
+  error - Undefined name 'StringsManager' - lib\ui\onBoarding\screen\onBoarding.dart:172:28 - undefined_identifier
+  error - Undefined name 'StringsManager' - lib\ui\onBoarding\screen\onBoarding.dart:173:27 - undefined_identifier
+  error - The method 'PageTextScreen' isn't defined for the type '_OnBoardingScreenState' - lib\ui\onBoarding\screen\onBoarding.dart:175:19 - undefined_method
+  error - Undefined name 'StringsManager' - lib\ui\onBoarding\screen\onBoarding.dart:176:28 - undefined_identifier
+  error - Undefined name 'StringsManager' - lib\ui\onBoarding\screen\onBoarding.dart:177:27 - undefined_identifier
+  error - The method 'Personalize' isn't defined for the type '_OnBoardingScreenState' - lib\ui\onBoarding\screen\onBoarding.dart:191:63 - undefined_method
+  error - The method 'Custombutton' isn't defined for the type '_OnBoardingScreenState' - lib\ui\onBoarding\screen\onBoarding.dart:195:24 - undefined_method
+  error - Undefined name 'StringsManager' - lib\ui\onBoarding\screen\onBoarding.dart:196:21 - undefined_identifier
+  error - Undefined name 'StringsManager' - lib\ui\onBoarding\screen\onBoarding.dart:197:21 - undefined_identifier
+warning - This class (or a class that this class inherits from) is marked as '@immutable', but one or more of its instance fields aren't final: Dot.active - lib\ui\onBoarding\screen\onBoarding.dart:208:7 - must_be_immutable
+  error - Undefined name 'ColorsManager' - lib\ui\onBoarding\screen\onBoarding.dart:219:25 - undefined_identifier
+  error - Undefined name 'ColorsManager' - lib\ui\onBoarding\screen\onBoarding.dart:219:54 - undefined_identifier
+   info - The file name 'pageSvgScreen.dart' isn't a lower_case_with_underscores identifier - lib\ui\onBoarding\widgets\pageSvgScreen.dart:1:1 - file_names
+warning - This class (or a class that this class inherits from) is marked as '@immutable', but one or more of its instance fields aren't final: PageSvgScreen.svg, PageSvgScreen.size - lib\ui\onBoarding\widgets\pageSvgScreen.dart:4:7 - must_be_immutable
+   info - The file name 'pageTextScreen.dart' isn't a lower_case_with_underscores identifier - lib\ui\onBoarding\widgets\pageTextScreen.dart:1:1 - file_names
+   info - The imported package 'evently' isn't a dependency of the importing package - lib\ui\onBoarding\widgets\pageTextScreen.dart:1:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:evently/core/resources/ColorsManager.dart' - lib\ui\onBoarding\widgets\pageTextScreen.dart:1:8 - uri_does_not_exist
+warning - This class (or a class that this class inherits from) is marked as '@immutable', but one or more of its instance fields aren't final: PageTextScreen.title, PageTextScreen.text - lib\ui\onBoarding\widgets\pageTextScreen.dart:4:7 - must_be_immutable
+warning - Unused import: 'package:evently_c17/core/resources/AppConstants.dart' - lib\ui\signin\screen\signin_screen.dart:1:8 - unused_import
+   info - Constructors for public widgets should have a named 'key' parameter - lib\ui\signin\screen\signin_screen.dart:13:7 - use_key_in_widget_constructors
+   info - Use a 'SizedBox' to add whitespace to a layout - lib\ui\signin\screen\signin_screen.dart:79:15 - sized_box_for_whitespace
+   info - Missing type annotation - lib\ui\signin\screen\signin_screen.dart:109:3 - strict_top_level_inference
+   info - Use a 'SizedBox' to add whitespace to a layout - lib\ui\signup\screen\signup_screen.dart:92:17 - sized_box_for_whitespace
+   info - Missing type annotation - lib\ui\signup\screen\signup_screen.dart:123:3 - strict_top_level_inference
+warning - Unused import: 'package:evently_c17/core/resources/ColorsManager.dart' - lib\ui\start\screen\start_screen.dart:2:8 - unused_import
+   info - Use a 'SizedBox' to add whitespace to a layout - lib\ui\start\screen\start_screen.dart:51:13 - sized_box_for_whitespace
+   info - The file name 'LanguageSwitch.dart' isn't a lower_case_with_underscores identifier - lib\ui\start\widgets\LanguageSwitch.dart:1:1 - file_names
+warning - This class (or a class that this class inherits from) is marked as '@immutable', but one or more of its instance fields aren't final: LanguageSwitch.language - lib\ui\start\widgets\LanguageSwitch.dart:4:7 - must_be_immutable
+   info - Constructors for public widgets should have a named 'key' parameter - lib\ui\start\widgets\LanguageSwitch.dart:6:3 - use_key_in_widget_constructors
+   info - The file name 'ThemeSwitch.dart' isn't a lower_case_with_underscores identifier - lib\ui\start\widgets\ThemeSwitch.dart:1:1 - file_names
+warning - This class (or a class that this class inherits from) is marked as '@immutable', but one or more of its instance fields aren't final: ThemeSwitch.theme - lib\ui\start\widgets\ThemeSwitch.dart:5:7 - must_be_immutable
+   info - Constructors for public widgets should have a named 'key' parameter - lib\ui\start\widgets\ThemeSwitch.dart:7:3 - use_key_in_widget_constructors
+

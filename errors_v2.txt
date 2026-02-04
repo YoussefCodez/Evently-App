@@ -1,0 +1,94 @@
+Resolving dependencies...
+Downloading packages...
+  characters 1.4.0 (1.4.1 available)
+  matcher 0.12.17 (0.12.18 available)
+  material_color_utilities 0.11.1 (0.13.0 available)
+  meta 1.17.0 (1.18.1 available)
+  test_api 0.7.7 (0.7.9 available)
+  vector_graphics_compiler 1.1.19 (1.1.20 available)
+Got dependencies!
+6 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Analyzing evently...                                            
+
+   info - Unnecessary 'this.' qualifier - lib\core\resources\app_constants.dart:8:12 - unnecessary_this
+   info - The constant name 'birthday_light' isn't a lowerCamelCase identifier - lib\core\resources\assets_manager.dart:6:23 - constant_identifier_names
+   info - The constant name 'book_light' isn't a lowerCamelCase identifier - lib\core\resources\assets_manager.dart:7:23 - constant_identifier_names
+   info - The constant name 'exhibition_light' isn't a lowerCamelCase identifier - lib\core\resources\assets_manager.dart:8:23 - constant_identifier_names
+   info - The constant name 'meeting_light' isn't a lowerCamelCase identifier - lib\core\resources\assets_manager.dart:9:23 - constant_identifier_names
+   info - The constant name 'sport_light' isn't a lowerCamelCase identifier - lib\core\resources\assets_manager.dart:10:23 - constant_identifier_names
+   info - The constant name 'birthday_dark' isn't a lowerCamelCase identifier - lib\core\resources\assets_manager.dart:11:23 - constant_identifier_names
+   info - The constant name 'book_dark' isn't a lowerCamelCase identifier - lib\core\resources\assets_manager.dart:12:23 - constant_identifier_names
+   info - The constant name 'exhibition_dark' isn't a lowerCamelCase identifier - lib\core\resources\assets_manager.dart:13:23 - constant_identifier_names
+   info - The constant name 'meeting_dark' isn't a lowerCamelCase identifier - lib\core\resources\assets_manager.dart:14:23 - constant_identifier_names
+   info - The constant name 'sport_dark' isn't a lowerCamelCase identifier - lib\core\resources\assets_manager.dart:15:23 - constant_identifier_names
+   info - The constant name 'home_selected' isn't a lowerCamelCase identifier - lib\core\resources\assets_manager.dart:21:23 - constant_identifier_names
+   info - The constant name 'profile_selected' isn't a lowerCamelCase identifier - lib\core\resources\assets_manager.dart:36:23 - constant_identifier_names
+   info - The constant name 'heart_selected' isn't a lowerCamelCase identifier - lib\core\resources\assets_manager.dart:39:23 - constant_identifier_names
+   info - Dangling library doc comment - lib\core\resources\my_flutter_app_icons.dart:1:1 - dangling_library_doc_comments
+   info - The constant name 'birthday_icon' isn't a lowerCamelCase identifier - lib\core\resources\my_flutter_app_icons.dart:24:25 - constant_identifier_names
+  error - Undefined name 'AppConstants' - lib\core\resources\validators.dart:8:17 - undefined_identifier
+  error - Undefined name 'AppConst' - lib\core\resources\validators.dart:21:17 - undefined_identifier
+warning - This class (or a class that this class inherits from) is marked as '@immutable', but one or more of its instance fields aren't final: CustomButton.title, CustomButton.onClick - lib\core\reusable\custom_button_reusable.dart:3:7 - must_be_immutable
+   info - Constructors for public widgets should have a named 'key' parameter - lib\core\reusable\custom_button_reusable.dart:6:3 - use_key_in_widget_constructors
+warning - This class (or a class that this class inherits from) is marked as '@immutable', but one or more of its instance fields aren't final: CustomField.hint, CustomField.prefix, CustomField.isPassword, CustomField.validator, CustomField.controller, CustomField.suffix, CustomField.maxLines - lib\core\reusable\custom_field.dart:6:7 - must_be_immutable
+   info - Constructors for public widgets should have a named 'key' parameter - lib\core\reusable\custom_field.dart:14:3 - use_key_in_widget_constructors
+warning - Duplicate import - lib\main.dart:4:8 - duplicate_import
+warning - Unused import: 'package:evently_c17/core/resources/colors_manager.dart' - lib\ui\add_event\screen\add_event_screen.dart:2:8 - unused_import
+   info - The prefix 'MyBackButton' isn't a lower_case_with_underscores identifier - lib\ui\add_event\screen\add_event_screen.dart:7:64 - library_prefixes
+   info - Use a 'SizedBox' to add whitespace to a layout - lib\ui\add_event\screen\add_event_screen.dart:55:19 - sized_box_for_whitespace
+warning - This function has a nullable return type of 'String?', but ends without returning a value - lib\ui\add_event\screen\add_event_screen.dart:158:42 - body_might_complete_normally_nullable
+warning - This function has a nullable return type of 'String?', but ends without returning a value - lib\ui\add_event\screen\add_event_screen.dart:172:40 - body_might_complete_normally_nullable
+warning - This class (or a class that this class inherits from) is marked as '@immutable', but one or more of its instance fields aren't final: TabViewImage.image - lib\ui\add_event\widgets\tab_view_image.dart:5:7 - must_be_immutable
+   info - Constructors for public widgets should have a named 'key' parameter - lib\ui\add_event\widgets\tab_view_image.dart:7:3 - use_key_in_widget_constructors
+warning - Unused import: 'package:flutter_svg/flutter_svg.dart' - lib\ui\forget_pass\screen\forgetpas_screen.dart:5:8 - unused_import
+   info - Use a 'SizedBox' to add whitespace to a layout - lib\ui\forget_pass\screen\forgetpas_screen.dart:23:13 - sized_box_for_whitespace
+   info - Unnecessary empty statement - lib\ui\home\tabs\home_tab\widgets\birthday_tab.dart:14:7 - empty_statements
+warning - Dead code - lib\ui\home\tabs\home_tab\widgets\birthday_tab.dart:14:7 - dead_code
+   info - Unnecessary empty statement - lib\ui\home\tabs\home_tab\widgets\book_tab.dart:14:7 - empty_statements
+warning - Dead code - lib\ui\home\tabs\home_tab\widgets\book_tab.dart:14:7 - dead_code
+   info - Unnecessary empty statement - lib\ui\home\tabs\home_tab\widgets\exhibition_tab.dart:14:7 - empty_statements
+warning - Dead code - lib\ui\home\tabs\home_tab\widgets\exhibition_tab.dart:14:7 - dead_code
+   info - Unnecessary empty statement - lib\ui\home\tabs\home_tab\widgets\meeting_tab.dart:14:7 - empty_statements
+warning - Dead code - lib\ui\home\tabs\home_tab\widgets\meeting_tab.dart:14:7 - dead_code
+   info - Unnecessary empty statement - lib\ui\home\tabs\home_tab\widgets\sport_tab.dart:14:7 - empty_statements
+warning - Dead code - lib\ui\home\tabs\home_tab\widgets\sport_tab.dart:14:7 - dead_code
+warning - Unused import: 'dart:io' - lib\ui\home\tabs\profile_tab\profile_tab.dart:1:8 - unused_import
+warning - Unused import: 'package:evently_c17/core/resources/colors_manager.dart' - lib\ui\home\tabs\profile_tab\profile_tab.dart:4:8 - unused_import
+warning - This class (or a class that this class inherits from) is marked as '@immutable', but one or more of its instance fields aren't final: SettingsItem.title, SettingsItem.action, SettingsItem.onTap - lib\ui\home\tabs\profile_tab\widgets\settings_item.dart:5:7 - must_be_immutable
+   info - Constructors for public widgets should have a named 'key' parameter - lib\ui\home\tabs\profile_tab\widgets\settings_item.dart:9:3 - use_key_in_widget_constructors
+  error - Target of URI doesn't exist: 'package:evently_c17/features/personalize/screen/personalize.dart' - lib\ui\onBoarding\screen\on_boarding.dart:7:8 - uri_does_not_exist
+  error - Undefined name 'Assetsmanager' - lib\ui\onBoarding\screen\on_boarding.dart:87:15 - undefined_identifier
+  error - Undefined name 'Assetsmanager' - lib\ui\onBoarding\screen\on_boarding.dart:95:11 - undefined_identifier
+  error - The method 'Personalize' isn't defined for the type '_OnBoardingScreenState' - lib\ui\onBoarding\screen\on_boarding.dart:107:59 - undefined_method
+  error - The getter 'onBoardSkip' isn't defined for the type 'StringsManager' - lib\ui\onBoarding\screen\on_boarding.dart:123:34 - undefined_getter
+  error - Undefined name 'Assetsmanager' - lib\ui\onBoarding\screen\on_boarding.dart:144:38 - undefined_identifier
+  error - Undefined name 'Assetsmanager' - lib\ui\onBoarding\screen\on_boarding.dart:145:38 - undefined_identifier
+  error - Undefined name 'Assetsmanager' - lib\ui\onBoarding\screen\on_boarding.dart:146:38 - undefined_identifier
+  error - The getter 'onBoardTitle1' isn't defined for the type 'StringsManager' - lib\ui\onBoarding\screen\on_boarding.dart:168:43 - undefined_getter
+  error - The getter 'onBoardText1' isn't defined for the type 'StringsManager' - lib\ui\onBoarding\screen\on_boarding.dart:169:42 - undefined_getter
+  error - The getter 'onBoardTitle2' isn't defined for the type 'StringsManager' - lib\ui\onBoarding\screen\on_boarding.dart:172:43 - undefined_getter
+  error - The getter 'onBoardText2' isn't defined for the type 'StringsManager' - lib\ui\onBoarding\screen\on_boarding.dart:173:42 - undefined_getter
+  error - The getter 'onBoardTitle3' isn't defined for the type 'StringsManager' - lib\ui\onBoarding\screen\on_boarding.dart:176:43 - undefined_getter
+  error - The getter 'onBoardText3' isn't defined for the type 'StringsManager' - lib\ui\onBoarding\screen\on_boarding.dart:177:42 - undefined_getter
+  error - The method 'Personalize' isn't defined for the type '_OnBoardingScreenState' - lib\ui\onBoarding\screen\on_boarding.dart:191:63 - undefined_method
+  error - The getter 'onBoardGetStarted' isn't defined for the type 'StringsManager' - lib\ui\onBoarding\screen\on_boarding.dart:196:36 - undefined_getter
+  error - The getter 'onBoardNext' isn't defined for the type 'StringsManager' - lib\ui\onBoarding\screen\on_boarding.dart:197:36 - undefined_getter
+warning - This class (or a class that this class inherits from) is marked as '@immutable', but one or more of its instance fields aren't final: Dot.active - lib\ui\onBoarding\screen\on_boarding.dart:208:7 - must_be_immutable
+  error - The getter 'disabled' isn't defined for the type 'ColorsManager' - lib\ui\onBoarding\screen\on_boarding.dart:219:68 - undefined_getter
+warning - This class (or a class that this class inherits from) is marked as '@immutable', but one or more of its instance fields aren't final: PageSvgScreen.svg, PageSvgScreen.size - lib\ui\onBoarding\widgets\page_svg_screen.dart:4:7 - must_be_immutable
+warning - Unused import: 'package:evently_c17/core/resources/colors_manager.dart' - lib\ui\onBoarding\widgets\page_text_screen.dart:1:8 - unused_import
+warning - This class (or a class that this class inherits from) is marked as '@immutable', but one or more of its instance fields aren't final: PageTextScreen.title, PageTextScreen.text - lib\ui\onBoarding\widgets\page_text_screen.dart:4:7 - must_be_immutable
+warning - Unused import: 'package:evently_c17/core/resources/app_constants.dart' - lib\ui\signin\screen\signin_screen.dart:1:8 - unused_import
+   info - Constructors for public widgets should have a named 'key' parameter - lib\ui\signin\screen\signin_screen.dart:13:7 - use_key_in_widget_constructors
+   info - Use a 'SizedBox' to add whitespace to a layout - lib\ui\signin\screen\signin_screen.dart:79:15 - sized_box_for_whitespace
+   info - Missing type annotation - lib\ui\signin\screen\signin_screen.dart:109:3 - strict_top_level_inference
+   info - Use a 'SizedBox' to add whitespace to a layout - lib\ui\signup\screen\signup_screen.dart:92:17 - sized_box_for_whitespace
+   info - Missing type annotation - lib\ui\signup\screen\signup_screen.dart:123:3 - strict_top_level_inference
+warning - Unused import: 'package:evently_c17/core/resources/colors_manager.dart' - lib\ui\start\screen\start_screen.dart:2:8 - unused_import
+   info - Use a 'SizedBox' to add whitespace to a layout - lib\ui\start\screen\start_screen.dart:51:13 - sized_box_for_whitespace
+warning - This class (or a class that this class inherits from) is marked as '@immutable', but one or more of its instance fields aren't final: LanguageSwitch.language - lib\ui\start\widgets\language_switch.dart:4:7 - must_be_immutable
+   info - Constructors for public widgets should have a named 'key' parameter - lib\ui\start\widgets\language_switch.dart:6:3 - use_key_in_widget_constructors
+warning - This class (or a class that this class inherits from) is marked as '@immutable', but one or more of its instance fields aren't final: ThemeSwitch.theme - lib\ui\start\widgets\theme_switch.dart:5:7 - must_be_immutable
+   info - Constructors for public widgets should have a named 'key' parameter - lib\ui\start\widgets\theme_switch.dart:7:3 - use_key_in_widget_constructors
+
