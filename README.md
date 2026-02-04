@@ -59,17 +59,13 @@
 
 <div align="center">
 
-| Onboarding | Sign In | Home |
-|------------|---------|------|
-| ![Onboarding](flutter_01.png) | ![Sign In](flutter_02.png) | ![Home](flutter_03.png) |
+<img src="screenshots/flutter_01.png" width="250" /> <img src="screenshots/flutter_02.png" width="250" /> <img src="screenshots/flutter_03.png" width="250" />
 
-| Event Details | Add Event | Profile |
-|---------------|-----------|---------|
-| ![Event Details](flutter_04.png) | ![Add Event](flutter_05.png) | ![Profile](flutter_06.png) |
+<img src="screenshots/flutter_04.png" width="250" /> <img src="screenshots/flutter_05.png" width="250" /> <img src="screenshots/flutter_06.png" width="250" />
 
-| Dark Mode | Favorites | Categories |
-|-----------|-----------|------------|
-| ![Dark Mode](flutter_07.png) | ![Favorites](flutter_08.png) | ![Categories](flutter_09.png) |
+<img src="screenshots/flutter_07.png" width="250" /> <img src="screenshots/flutter_08.png" width="250" /> <img src="screenshots/flutter_09.png" width="250" />
+
+<img src="screenshots/flutter_10.png" width="250" />
 
 </div>
 
@@ -85,7 +81,7 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/evently.git
+   git clone https://github.com/YoussefCodez/evently.git
    cd evently
    ```
 
@@ -233,9 +229,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author
 
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
+**Youssef Mohamed**
+- GitHub: [@YoussefCodez](https://github.com/YoussefCodez)
+- LinkedIn: [Youssef Mohamed](https://www.linkedin.com/in/yousseftech/)
 
 ## 🙏 Acknowledgments
 
