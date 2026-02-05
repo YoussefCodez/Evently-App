@@ -1,3 +1,5 @@
+import 'package:evently_c17/core/models/user_model.dart';
+import 'package:evently_c17/core/remote/firebase/firebase_manager.dart';
 import 'package:evently_c17/core/resources/strings_manager.dart';
 import 'package:evently_c17/core/resources/validations.dart';
 import 'package:evently_c17/core/resources/widgets/dialog_utils.dart';
@@ -8,6 +10,8 @@ import 'package:evently_c17/ui/home/screen/home_screen.dart';
 import 'package:evently_c17/ui/signup/screen/signup_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
+import 'package:google_sign_in/google_sign_in.dart';
 
 import '../../../core/resources/assets_manager.dart';
 
@@ -129,6 +133,78 @@ class _SigninScreenState extends State<SigninScreen> {
                     ),
                   ],
                 ),
+                SizedBox(height: 32),
+                Row(
+                  children: [
+                    Expanded(
+                      child: Container(
+                        width: double.infinity,
+                        height: 1,
+                        color: Theme.of(
+                          context,
+                        ).colorScheme.onSecondaryFixedVariant,
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 16),
+                      child: Text(
+                        "Or",
+                        style: TextStyle(
+                          color: Theme.of(context).colorScheme.primary,
+                          fontWeight: .w500,
+                          fontSize: 16,
+                        ),
+                      ),
+                    ),
+                    Expanded(
+                      child: Container(
+                        width: double.infinity,
+                        height: 1,
+                        color: Theme.of(
+                          context,
+                        ).colorScheme.onSecondaryFixedVariant,
+                      ),
+                    ),
+                  ],
+                ),
+                SizedBox(height: 24),
+                GestureDetector(
+                  onTap: () {
+                    loginWithGoogle();
+                  },
+                  child: Container(
+                    padding: EdgeInsets.symmetric(vertical: 16),
+                    decoration: BoxDecoration(
+                      color: Theme.of(context).colorScheme.surface,
+                      borderRadius: BorderRadius.circular(16),
+                      border: Border.all(
+                        width: 1,
+                        color: Theme.of(
+                          context,
+                        ).colorScheme.onTertiaryContainer,
+                      ),
+                    ),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        SvgPicture.asset(
+                          "assets/svg/googleIcon.svg",
+                          height: 24,
+                          width: 24,
+                        ),
+                        SizedBox(width: 16),
+                        Text(
+                          "Login With Google",
+                          style: TextStyle(
+                            color: Theme.of(context).colorScheme.primary,
+                            fontWeight: .w500,
+                            fontSize: 18,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
               ],
             ),
           ),
@@ -162,6 +238,55 @@ class _SigninScreenState extends State<SigninScreen> {
           );
         }
       } catch (e) {
+        Navigator.pop(context);
+        DialogUtils.showMessageDialog(
+          context,
+          'Something went wrong: ${e.toString()}',
+        );
+      }
+    }
+  }
+
+  void loginWithGoogle() async {
+    try {
+      DialogUtils.showLoadingDialog(context);
+
+      // Using the new Singleton and initialization pattern
+      final GoogleSignIn googleSignIn = GoogleSignIn.instance;
+      await googleSignIn.initialize(
+        serverClientId:
+            "1055085684931-jqtv0ugudntsb8nqnq1lfb3flc62ifv7.apps.googleusercontent.com",
+      );
+
+      final GoogleSignInAccount googleUser = await googleSignIn.authenticate();
+
+      final GoogleSignInAuthentication googleAuth =
+          await googleUser.authentication;
+
+      final credential = GoogleAuthProvider.credential(
+        idToken: googleAuth.idToken,
+      );
+
+      final userCredential = await FirebaseAuth.instance.signInWithCredential(
+        credential,
+      );
+
+      if (userCredential.additionalUserInfo?.isNewUser == true) {
+        await FirebaseManager.addUser(
+          userCredential.user!.uid,
+          UserModel(
+            name: userCredential.user?.displayName,
+            email: userCredential.user?.email,
+            uid: userCredential.user?.uid,
+            favorites: [],
+          ),
+        );
+      }
+
+      Navigator.pop(context);
+      Navigator.pushReplacementNamed(context, HomeScreen.routeName);
+    } catch (e) {
+      if (mounted) {
         Navigator.pop(context);
         DialogUtils.showMessageDialog(
           context,

@@ -43,7 +43,8 @@ abstract class AppTheme {
       onSurface: Colors.white,
       onSurfaceVariant: Colors.black,
       onTertiary: Colors.black,
-      onTertiaryFixed: ColorsManager.unselectedTab
+      onTertiaryFixed: ColorsManager.unselectedTab,
+      onSecondaryFixedVariant: ColorsManager.fieldBorder
     ),
     textTheme: TextTheme(
       titleMedium: TextStyle(
@@ -122,7 +123,8 @@ abstract class AppTheme {
         onSurface: ColorsManager.primaryColor,
         onSurfaceVariant: Colors.white,
         onTertiary: ColorsManager.primaryColor,
-        onTertiaryFixed: Colors.white
+        onTertiaryFixed: Colors.white,
+        onSecondaryFixedVariant: ColorsManager.primaryColor
     ),
       textTheme: TextTheme(
           titleMedium: TextStyle(
