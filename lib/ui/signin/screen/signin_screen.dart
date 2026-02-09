@@ -175,13 +175,13 @@ class _SigninScreenState extends State<SigninScreen> {
                   child: Container(
                     padding: EdgeInsets.symmetric(vertical: 16),
                     decoration: BoxDecoration(
-                      color: Theme.of(context).colorScheme.surface,
+                      color: Theme.of(context).colorScheme.onTertiaryContainer,
                       borderRadius: BorderRadius.circular(16),
                       border: Border.all(
                         width: 1,
                         color: Theme.of(
                           context,
-                        ).colorScheme.onTertiaryContainer,
+                        ).colorScheme.surface,
                       ),
                     ),
                     child: Row(
@@ -251,7 +251,6 @@ class _SigninScreenState extends State<SigninScreen> {
     try {
       DialogUtils.showLoadingDialog(context);
 
-      // Using the new Singleton and initialization pattern
       final GoogleSignIn googleSignIn = GoogleSignIn.instance;
       await googleSignIn.initialize(
         serverClientId:
